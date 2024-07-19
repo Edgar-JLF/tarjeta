@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vale de Regalo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gift-container" onclick="openGift()">
+        <img src="./assets/8846105.png" alt="Caja de regalo" class="gift-image">
+        <div class="gift-card" id="gift-card">
+            <h1>¡Feliz Cumpleaños, Bren!</h1>
+            <p>Este vale es por un regalo especial que llegará muy pronto.</p>
+            <p>Con cariño, Bere & Edgar.</p>
+            <div class="delivery-status">
+                <div class="progress-bar">
+                    <div class="progress" id="progress">
+                        <img src="./assets/carrito.png" alt="Carrito de entrega" class="delivery-cart" id="delivery-cart">
+                    </div>
+                </div>
+                <p id="time-remaining"></p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
